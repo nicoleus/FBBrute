@@ -47,7 +47,7 @@ try:
 				print("\n[+] Password : {}".format(passwd.strip()))
 				break
 		print("\n\n[!] Done .. !!")
-	else:
+	      else:
 		print("fbbrute: error: No such file or directory")
 except KeyboardInterrupt:
 	print("fbbrute: error: Keyboard interrupt")
