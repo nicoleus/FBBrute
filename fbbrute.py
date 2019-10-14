@@ -29,7 +29,6 @@ __banner__ = """
 print("[+] Facebook Brute Force\n")
 
 try:
-	if os.path.exists(passlist) != False:
 		print(__banner__)
 		print(" [+] Account to crack : {}".format(userid))
 		print(" [+] Loaded : {}".format(len(open(passlist,"r").read().split("\n"))))
